@@ -61,6 +61,6 @@ Navegador usado: (escribe aqui cual usaste)
 
 | **Pieza** | **Línea de tu código donde aparece** | **Para qué sirve** |
 |---|---|---|
-| **DOM** | Líneas 104 a 108 | Selecciona los elementos HTML (formulario, inputs, lista y total) para interactuar con ellos desde JavaScript. |
-| **Evento** | Línea 110 | Escucha cuando el usuario presiona el botón de enviar (submit) en el formulario para procesar los datos. |
-| **Objeto** | Línea 113 | Crea una nueva instancia de la clase Producto usando los valores del formulario. |
+| **DOM** | Líneas 105 a 108 | Selecciona los elementos HTML (formulario, inputs, lista y total) para interactuar con ellos desde JavaScript. |
+| **Evento** | Línea 111 | Escucha cuando el usuario presiona el botón de enviar (submit) para procesar los datos ingresados. |
+| **Objeto** | Línea 115 | Crea una nueva instancia de la clase Producto y la agrega al carrito de compras. |

@@ -6,12 +6,23 @@ class AlumnoJardin {
         this.turno = turno;
     }
 
+    // Método 1: Valida que la edad esté dentro del rango escolar permitido
     verificarEdad() {
         return this.edad >= 3 && this.edad <= 6;
     }
 
+    // Método 2: Determina el nivel según la edad del alumno
+    obtenerCategoriaEdad() {
+        if (this.edad <= 4) {
+            return "Nivel: Inicial 3-4 años";
+        } else {
+            return "Nivel: Inicial 5-6 años";
+        }
+    }
+
+    // Método auxiliar para generar la ficha completa con categoría
     obtenerFicha() {
-        return `${this.nombre} - ${this.edad} años - Turno: ${this.turno}`;
+        return `${this.nombre} - ${this.edad} años - Turno: ${this.turno} (${this.obtenerCategoriaEdad()})`;
     }
 }
 
